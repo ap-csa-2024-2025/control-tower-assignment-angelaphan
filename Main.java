@@ -7,11 +7,16 @@ public class Main
    // Complete the code below
    
    // TODO: Create Airplane 1 and 2
-   
+    Airplane plane1= new Airplane();
+    Airplane plane2= new Airplane("AAA02", 15.8, 128, 30000);
    // TODO: Create a Scanner
-   
+    Scanner scan1=new Scanner(System.in);
    // TODO: Getting inputs for Airplane 3
    System.out.println("Enter the details of the third airplane (call-sign, distance, bearing and altitude): ");
+    String plane3cs= scan1.nextLine();
+    double plane3dist= scan1.nextDouble();
+    int plane3dir= scan1.nextInt();
+    int plane3alt= scan1.nextInt();
 
    // TODO: Create Airplane 3 from inputs
    
